@@ -1,11 +1,13 @@
-This file contains details about the code execution.
+The Project was taken up to build a pipeline for assisting small scale businesses which generate enormous text data 
+in optimizing their performance. The primary objectives of the project are to a) generate the sales report from the 
+financial chat and forecast the revenues for next 12 weeks considering market relevant factors such as COVID 
+infections, Vaccination etc. We have employed various text mining techniques to generate the sales report from the text 
+data and used boosting algorithms to forecast the revenues.The best results we could achieve are R Squared of 0.82 
+using an averaged model
 
-1) the data file creed3.txt is the text messages data sourced from an external business
-2) the datafile covid_data.csv contains covid related information manually collected from various sources
-3) the code file contains a) preprocessing module and b) machine learning module. 
-
-4) The coding was done using Google colab with GPU support (the code will throw errors if the GPU is not connected)
-5) Data upload: while executing the code you will get data upload prompt, first upload creed3.txt file and next covid_data.csv
-6) the code is ordered in sequential order. We can directly run all the cells.
-7) please install all the neccessary packages.
-8) The exploratory data analysis and other experiments were done in other mutiple files but, for this is the main file to observe the results hence submiting this
+1) for mining the data we have used nltk library along with some text mining techniques
+2) VARMAX
+3) SARIMAX
+4) XGB, LGB
+5) Stacking of XGB and LGB
+6) Average of XGB and LGB
