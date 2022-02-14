@@ -5,7 +5,7 @@ infections, Vaccination etc. We have employed various text mining techniques to 
 data and used boosting algorithms to forecast the revenues.The best results we could achieve are R Squared of 0.82 
 using an averaged model
 
-1) for mining the data we have used nltk library along with some text mining techniques
+1) for mining the data we have used nltk library along with some text mining techniques (regular expressions)
 2) VARMAX
 3) SARIMAX
 4) XGB, LGB
